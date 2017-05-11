@@ -204,56 +204,87 @@ input[type=submit] {
 
   .main-container{
     width: 100%;
-    
+    margin-top: 20px;
   }
-  #masthead{
-    width: 100%
-  }
-  .sidebar{
+  .sidebar, nav{
     width: 100%;
+  }
+   .auth-image{
+    width: 600px;
+    height: 600px;
 
   }
-
+#logo {
+  width: 100%;
+}
   .main-section{
     width: 100%;
   }
+  .container{
+    width:100%;
+  }
 }
 @media screen and (max-width: 768px){
-
+ 
 .main-container{
     width: 100%;
     
   }
-  #masthead{
-    width: 100%
-  }
-  
   .sidebar{
+    width: 100%
+
+  }
+ 
+  nav{
+    width: 100%;
+  }
+   .auth-image{
+    margin-top: 10px;
     width: 100%;
 
   }
 
   .main-section{
+    margin-top: 50px;
     width: 100%;
   }
-
+.container{
+  width: 100%;
+}
+#logo{
+  width: 100%;
+}
 
 }
 
-
-
 @media screen and (max-width: 640px){
-  .sidebar{
+
+  .main-container{
     width: 100%;
+    
+  }
+  
+  #logo{
+  width: 100%;
+  margin-bottom: 10px;
+
+}
+  nav{
+    width: 100%;
+  }
+  .auth-image{
+    margin-bottom:10px;
+   width: 520px;
+    height: 520px;
+   
 
   }
 
   .main-section{
+     margin-top:50px;
     width: 100%;
   }
-  #masthead{
-    width: 100%
-  }
+  
 
 
 }
