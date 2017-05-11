@@ -253,6 +253,7 @@ input[type=submit] {
 }
 #logo{
   width: 100%;
+  margin-left: 20px;
 }
 
 }
@@ -263,6 +264,10 @@ input[type=submit] {
     width: 100%;
     
   }
+ #masthead{
+    margin-left: 30px;
+    width: 90%;
+  }
   
   #logo{
   width: 100%;
@@ -270,7 +275,7 @@ input[type=submit] {
 
 }
   nav{
-    width: 100%;
+    width: 80%;
   }
   .auth-image{
     margin-bottom:10px;
@@ -279,12 +284,36 @@ input[type=submit] {
    
 
   }
+  .sidebar{
+  background-color: white;
+  margin-left: 10px;
+  border: 3px solid #dddddd;
+ background-position: center;
+  padding: 20px 50px 10px 10px;
+  margin-top: 20px;
+  margin-right: 200px;
+}
 
   .main-section{
-     margin-top:50px;
-    width: 100%;
+   background-color: white;
+  width: 92%;
+  margin: 50px 10px 10px 20px;
+  border: 3px solid #dddddd;
+  padding: 0px 20px 20px 20px;
+  display: inline-block;
+  vertical-align: top;
+  flex-wrap: wrap;
+  overflow:auto;
+
   }
   
+footer{
+  background-color: #666666;
+  border-top: 5px solid #4aaaa5;
+  padding: 20px;
+  clear:both;
+}
+
 
 
 }
