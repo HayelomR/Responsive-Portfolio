@@ -200,120 +200,124 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-@media screen and (max-width: 980px) {
 
-  .main-container{
-    width: 100%;
-    margin-top: 20px;
-  }
-  .sidebar, nav{
-    width: 100%;
-  }
-   .auth-image{
-    width: 600px;
-    height: 600px;
 
+@media screen and (max-width: 640px) {
+
+p {
+    margin-top: 15px;
   }
-#logo {
-  width: 100%;
-}
-  .main-section{
-    width: 100%;
+
+.sidebar {
+    float: left;
+    overflow: auto 0;
+    width: 96%;
+    margin: 2%;
+    margin-right: 2%
   }
-  .container{
-    width:100%;
-  }
-}
-@media screen and (max-width: 768px){
- 
 .main-container{
-    width: 100%;
-    
-  }
-  .sidebar{
-    width: 100%
-
-  }
- 
-  nav{
-    width: 100%;
-  }
-   .auth-image{
-    margin-top: 10px;
-    width: 100%;
-
-  }
-
-  .main-section{
-    margin-top: 50px;
-    width: 100%;
-  }
-.container{
-  width: 100%;
-}
-#logo{
-  width: 100%;
-  margin-left: 20px;
-}
-
-}
-
-@media screen and (max-width: 640px){
-
-  .main-container{
-    width: 100%;
-    
-  }
- #masthead{
-    margin-left: 30px;
-    width: 90%;
-  }
-  
-  #logo{
-  width: 100%;
-  margin-bottom: 10px;
-
-}
-  nav{
-    width: 80%;
-  }
-  .auth-image{
-    margin-bottom:10px;
-   width: 520px;
-    height: 520px;
-   
-
-  }
-  .sidebar{
-  background-color: white;
-  margin-left: 10px;
-  border: 3px solid #dddddd;
- background-position: center;
-  padding: 20px 50px 10px 10px;
-  margin-top: 20px;
   margin-right: 200px;
 }
 
-  .main-section{
-   background-color: white;
-  width: 92%;
-  margin: 50px 10px 10px 20px;
-  border: 3px solid #dddddd;
-  padding: 0px 20px 20px 20px;
-  display: inline-block;
-  vertical-align: top;
-  flex-wrap: wrap;
-  overflow:auto;
-
+  /* Image full width with space before paragraph. */
+  .auth-image {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 15px;
   }
-  
-footer{
-  background-color: #666666;
-  border-top: 5px solid #4aaaa5;
-  padding: 20px;
-  clear:both;
+
+
+
+
 }
 
 
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+#masthead{
+  position: static;
+  margin-top: 20px;
+  padding-right: 70px;
+  font-size: 12px;
+  width: 80%;
+  margin-left: 100px;
+  margin-right: 0px;
+  text-align: center;
+}
+
+.container{
+  padding: 1px;
+}
+#logo{
+  width: 40%;
+  padding-top: 1px;
+  margin-bottom: 0px;
+  border:10px;
+  margin-top: 0px;
+  padding-bottom: 1px;
+  font-size: 12px;
+}
+nav a {
+  display: inline-block;
+  padding-left: 1px;
+  margin-left: 5px;
+  line-height: 8px;
+  color: #999;
+  text-decoration: none;
+  border-left: 1px solid #efefef;
+}
+
+#main-container{
+  max-width: 500px;
+  margin-left: 100px;
+  max-height: 100px;
+  padding-top: 5px;
+}
+.main-section {
+  margin: 0px;
+  width: 110%; 
+}
+
+  .sidebar{
+    float: left;
+    margin-top: 20px;
+    border: 10px;
+    height: 130px;
+  }
+
+  h2{
+
+    margin-top: 0px;
+    font-size: 15px;
+  }
+
+
+  .auth-image{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+  }
+  footer{
+    margin-left: 100px;
+    padding-top: 10px;
+    height: 30px;
+    width: 75%;
+    padding-top: 10px;
+  padding-bottom: 40px;
+  }
+  .social {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-right: 5px;
+}
 
 }
