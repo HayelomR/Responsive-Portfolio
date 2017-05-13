@@ -203,10 +203,54 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
 
+#logo{
+  margin-left: 120px;
+  width: 250px;
+  font-weight: 0px;
+}
 
+#masthead{
 
+    position: static;
+    margin-top: 16px;
+    padding-right: 70px;
+    font-size: 12px;
+    width: 80%;
+    margin-left: 100px;
+    margin-right: 0px;
+    text-align: center;
+  }
+  #main-container{
+    padding: 5px;
+  }
 
-
+.main-section{
+  width: 40%;
+  padding: 30px;
+  margin-left: 120px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+.auth-image {
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+.sidebar {
+  float: right;
+  margin-right: 80px;
+  width: 25%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+footer{
+  margin-left: 30px;
+  width: 90%;
+}
 
 }
 
@@ -233,14 +277,15 @@ input[type=submit] {
     width: 40%;
     margin-bottom: 0px;
     border:10px;
-    margin-top: 0px;
+    margin-left: 20px;
     padding-bottom: 1px;
     font-size: 12px;
   }
   nav a {
     display: inline-block;
+    font-size: 15px;
     padding-left: 1px;
-    margin-left: 5px;
+    margin: 20px;
     line-height: 8px;
     color: #999;
     text-decoration: none;
@@ -349,8 +394,9 @@ input[type=submit] {
     width: 100%;
   }
 
-  auth-image {
-    width: auto;
+  .auth-image {
+    width: 400px;
+    height:280px;
     margin: 20px;
     float: none;
   }
