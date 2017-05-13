@@ -199,138 +199,63 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-@media screen and (max-width: 640px) {
-  #masthead { /*contains my name and the nav*/
-  position: static;
-  margin-top: 30px;
-  padding-right: 70px;
-  font-size: 12px;
-  width: 100000%;
-  margin-left: 100px;
-  margin-right: 0px;
-  text-align: center;
+
+
+@media screen and (max-width: 980px) {
+
+
+
+
+
+
 }
-
-textarea {
-  height: 100px; /*text area for contact message*/
-}
-    #logo { 
-      padding-top: 20px;
-      padding-bottom: 
-      width: 0px;
-      text-align: center;
-      margin-top: 10px;
-      margin-bottom: 0px;
-      float: none;
-      font-size: 20px
-     
-      }
-nav {
-      float: none;
-      width: 100%;
-      margin: 10px auto;
-      }
-
-    .container {
-      width: 110%;
-    }
-
-   .sidebar{
-    width:600px;
-   }
-    
-    nav {
-      float: none;
-      width: 100%;
-      margin: 10px auto;
-      }
-
-    .main-container {
-      margin: 10px auto 60px;
-      overflow: auto;
-      }
-
-.main-section{
-position: static;
-width: 100%;
-}
-
-    auth-image {
-      width: auto;
-      margin: 20px;
-      float: none;
-      }
-
-#main-container{
-  max-width: 500px;
- width: 100%
-  max-height: 100px;
-  padding-top: 5px;
-}
-
-    #myPortfolio {
-      width: auto;
-      float: none;
-      margin: 20px;
-      }
-
-    footer{
-      
-      width: 100%;
-      margin-left: 20px;
-     
-     
-      }
-
-    }
-
-
 
 
 
 @media screen and (max-width: 768px) {
 
-#masthead{
-  position: static;
-  margin-top: 20px;
-  padding-right: 70px;
-  font-size: 12px;
-  width: 80%;
-  margin-left: 100px;
-  margin-right: 0px;
-  text-align: center;
-}
+  #masthead{
 
-.container{
-  padding: 1px;
-}
-#logo{
-  width: 40%;
-  margin-bottom: 0px;
-  border:10px;
-  margin-top: 0px;
-  padding-bottom: 1px;
-  font-size: 12px;
-}
-nav a {
-  display: inline-block;
-  padding-left: 1px;
-  margin-left: 5px;
-  line-height: 8px;
-  color: #999;
-  text-decoration: none;
-  border-left: 1px solid #efefef;
-}
+    position: static;
+    margin-top: 20px;
+    padding-right: 70px;
+    font-size: 12px;
+    width: 80%;
+    margin-left: 100px;
+    margin-right: 0px;
+    text-align: center;
+  }
 
-#main-container{
-  max-width: 600px;
-  max-height: 100px;
-  padding-top: 5px;
-}
-.main-section {
-  margin: 0px;
-  width: 100%; 
-}
+  .container{
+    padding: 1px;
+  }
+  #logo{
+    width: 40%;
+    margin-bottom: 0px;
+    border:10px;
+    margin-top: 0px;
+    padding-bottom: 1px;
+    font-size: 12px;
+  }
+  nav a {
+    display: inline-block;
+    padding-left: 1px;
+    margin-left: 5px;
+    line-height: 8px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+  }
+
+  #main-container{
+    max-width: 600px;
+    max-height: 100px;
+    padding-top: 5px;
+  }
+  .main-section {
+    margin: 0px;
+    width: 110%; 
+  }
 
   .sidebar{
     float: left;
@@ -338,6 +263,7 @@ nav a {
     margin-left: 1px;
     border: 10px;
     height: 130px;
+    width: 110%;
   }
 
   h2{
@@ -356,16 +282,101 @@ nav a {
     margin-left: 80px;
     padding-top: 10px;
     height: 30px;
-    width: 80%;
+    width: 85%;
     padding-top: 10px;
-  padding-bottom: 40px;
+    padding-bottom: 40px;
   }
   .social {
-  width: 30px;
-  height: 30px;
-  margin-bottom: 10px;
-  margin-top: 0px;
-  margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-right: 5px;
+  }
 }
 
+@media screen and (max-width: 640px) {
+  #masthead { /*contains my name and the nav*/
+    position: static;
+    margin-top: 30px;
+    padding-right: 70px;
+    font-size: 12px;
+    width: 80%;
+    margin-left: 70px;
+    margin-right: 0px;
+    text-align: center;
+  }
+.
+  textarea {
+    height: 100px; /*text area for contact message*/
+  }
+  #logo { 
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    float: none;
+    font-size: 20px
+    
+  
+  }
+  nav {
+    float: none;
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  .container {
+    width: 110%;
+  }
+
+  .sidebar{
+    width:100%;
+  }
+  
+  nav {
+    float: none;
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  .main-container {
+    margin: 10px auto 60px;
+    overflow: auto;
+  }
+
+  .main-section{
+    position: static;
+    width: 100%;
+  }
+
+  auth-image {
+    width: auto;
+    margin: 20px;
+    float: none;
+  }
+
+  #main-container{
+    max-width: 500px;
+    width: 100%
+    max-height: 100px;
+    padding-top: 5px;
+  }
+
+  #myPortfolio {
+    width: auto;
+    float: none;
+    margin: 20px;
+  }
+
+  footer {
+
+    width: 80%;
+    margin-left: 60px;
+    
+    
+  }
+
 }
+
+
+
